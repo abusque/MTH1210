@@ -99,4 +99,7 @@ legend('erreur absolue');
 
 % d)
 % La plus petite valeur est 2.554135347665465e-08 pour n = 8
-% L'erreur remonte après n = 8, car
+% L'erreur remonte après h = 10^-8, car la différence entre tan(x+h) et 
+% tan(x) devient tellement minime de tel sorte tan(x+h) et tan(x) sont 
+% quasiment identiques. En soustrayant deux nombres si proches, il s'ensuit
+% une perte de chiffres significatifs, ce qui cause l'erreur.
