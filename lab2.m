@@ -85,12 +85,13 @@ end
 
 % c)
 
-n3 = 1:1:15;
+n3 = 15:-1:1;
+h = 10.^-n3;
 y3 = abs(quotientTan(n3) - sec(x)^2);
 
 figure; % Permet d'afficher les graphiques dans une figure window chaque
-loglog(n3,y3,'-s');
-% axis([-Inf Inf -Inf Inf]); %-Inf à Inf va effectuer un scaling auto
+plot(h,y3,'-+');
+axis([-Inf Inf -Inf Inf]); %-Inf à Inf va effectuer un scaling auto
 title('L''erreur en fonction de h entre l''estimation de la dérivée de tan et de la dérivée de tan')
 xlabel('L''axe des h');
 ylabel('L''axe des y');
