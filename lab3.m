@@ -1,4 +1,4 @@
-%%% Laboratoire 2 MTH1210 Philippe Lacasse-Labelle, Antoine Busque
+%%% Laboratoire 3 MTH1210 Philippe Lacasse-Labelle, Antoine Busque
 clc;
 close all;
 %% Question 1
