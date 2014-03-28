@@ -91,21 +91,21 @@ nbPas = (2-0)/h3;
 [t3,y3] = euler('eqndiffLab5Q2', t0, y0, h3, nbPas);
 
 figure;
-plot(t, solAnalytique, 'g -', t1, y1, 'b +');
+plot(t, solAnalytique2, 'g -', t1, y1, 'b +');
 title('Sol. analytique et numériques de y selon Euler');
 xlabel('t');
 ylabel('y');
 legend('Solution Analytique', 'Méthode d''Euler, h = 0.5')
 
 figure;
-plot(t, solAnalytique, 'g -', t2, y2, 'b +');
+plot(t, solAnalytique2, 'g -', t2, y2, 'b +');
 title('Sol. analytique et numériques de y selon Euler');
 xlabel('t');
 ylabel('y');
 legend('Solution Analytique', 'Méthode d''Euler, h = 0.25')
 
 figure;
-plot(t, solAnalytique, 'g -', t3, y3, 'b +');
+plot(t, solAnalytique2, 'g -', t3, y3, 'b +');
 title('Sol. analytique et numériques de y selon Euler');
 xlabel('t');
 ylabel('y');
