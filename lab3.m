@@ -3,6 +3,7 @@ clc;
 close all;
 %% Question 1
 % a)
+% Initialiser a zero 10 valeurs pour optimiser
 r = zeros(1, 10);
 q = zeros(1, 10);
 
