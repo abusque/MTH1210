@@ -10,7 +10,7 @@ h = 0.1;
 nbPas = (6-1)/h;
 % Solution analytique
 t=1:h:6;
-solAnalytique = t1.*(log(t1) + 1);
+solAnalytique = t.*(log(t) + 1);
 
 % Solution numerique, methode du pt milieu
 [t1, y1] = ptmilieu('eqndiffLab5Q1',t0,y0,h,nbPas);
